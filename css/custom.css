@@ -1288,6 +1288,9 @@ header .navbar-collapse.collapse{
 		display: block;
 		width: 100%;
 	}
+	 .map-container {
+    padding-bottom: 75%; /* Adjust this value for the desired aspect ratio */
+  }
 }
 
 /* Mobile Layout */
@@ -1358,6 +1361,9 @@ header .navbar-collapse.collapse{
 	.contact-form{
 		padding: 40px 40px 0;
 	}
+	 .map-container {
+    padding-bottom: 75%; /* Adjust this value for the desired aspect ratio */
+  }
 	
 }
 
@@ -1482,6 +1488,9 @@ header .navbar-collapse.collapse{
 	.contact-form{
 		padding: 20px 20px 0;
 	}
+	 .map-container {
+    padding-bottom: 75%; /* Adjust this value for the desired aspect ratio */
+  }
 }
 
 @media only screen and (max-width: 575px){
@@ -1518,5 +1527,7 @@ header .navbar-collapse.collapse{
 	.about-image{
 		max-width: 100%;
 	}
-	
+	 .map-container {
+    padding-bottom: 75%; /* Adjust this value for the desired aspect ratio */
+  }
 }
